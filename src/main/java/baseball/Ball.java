@@ -16,13 +16,13 @@ public class Ball {
 		}
 		
 		
-		if(ball.matchBall(ballNo)) {
+		if(ball.matchBallNo(ballNo)) {
 			return BallStatus.BALL;
 		}
 		return BallStatus.NOTHING;
 	}
 
-	private boolean matchBall(int ballNo) {
+	private boolean matchBallNo(int ballNo) {
 		return this.ballNo == ballNo;
 	}
 
